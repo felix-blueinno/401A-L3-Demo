@@ -47,10 +47,11 @@ function preload() {
 
   // Using for-loop:
   for (let i = 1; i < 47; i += 1) {
-    // let missings = [
-    //   5, 7, 9, 10, 11, 12, 13, 20, 22, 25, 26, 27, 28, 29, 33, 34, 36, 40,
-    // ];
-    // if (missings.includes(i)) continue;
+    let missings = [
+      9, 10, 11, 12, 13, 18, 20, 22, 25, 26, 27, 28, 29, 33, 34, 36, 37, 40, 42,
+      46, 47, 45, 43,
+    ];
+    if (missings.includes(i)) continue;
 
     let fileName = i < 10 ? "0" + i : i;
 
